@@ -1,15 +1,15 @@
 .navbar {
   width: 100%;
-  background-color: #7fff00;
+  background-color: #beadfa;
+  color: #fff3da;
 }
 
 .main_container {
   display: flex;
   justify-content: space-between;
-  min-height: 20vh;
+  min-height: 8vh;
   max-width: 1140px;
   margin: auto;
-  padding: 10px;
   align-items: center;
 }
 
