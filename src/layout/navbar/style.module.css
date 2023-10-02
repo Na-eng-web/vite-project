@@ -1,7 +1,7 @@
 .navbar {
-  width: 100%;
-  background-color: #beadfa;
-  color: #fff3da;
+  min-height: 100vh;
+  background-color: #7335b7;
+  border-radius: 0 0 350px 0;
 }
 
 .main_container {
@@ -38,7 +38,7 @@ p {
   padding: 12px 35px;
   position: relative;
   z-index: 1;
-  background: #000000;
+  background: #f8842b;
   border-radius: 30px;
   font-weight: 500;
   font-size: 16px;

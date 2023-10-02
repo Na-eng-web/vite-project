@@ -19,9 +19,6 @@ const NavBar = () => {
       <div className={style.navbar}>
         <div className={style.main_container}>
           <div className={style.log_wrapper}>LOGO</div>
-          <div onClick={() => setDrawer(!Drawer)} className={style.menu_icon}>
-            {!Drawer ? <img src={HamburgerIcon} alt="icon" /> : "X"}
-          </div>
           <div className={style.links_wrapper}>
             {links.map((link) => (
               <p>{link}</p>
